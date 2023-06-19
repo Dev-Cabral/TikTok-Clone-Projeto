@@ -1,0 +1,27 @@
+.videoSideBar {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    color: white;
+}
+
+.sideBar__options {
+    padding: 10px;
+    text-align: center;
+}
+
+.sideBar__options p {
+    padding: 0;
+    /* margin-bottom: 20px; */
+}
+
+@media only screen and (max-width: 440px) {
+    .sideoSidebar {
+        top: 50%;
+    }
+
+    .sideBar__options {
+        padding: 5px;
+        text-align: center;
+    }
+}
